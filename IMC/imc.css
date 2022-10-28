@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(255, 255, 240);
+}
+table.imcgrau{
+    margin: 0 auto;
+    align-items: center;
+    background-color: bisque;
+    border-color:rgb(250, 196, 131) ;
+    font-size: 20px;
+}
+table.imccalc{
+    margin: 0 auto;
+    align-items: center;
+    font-size: 20px;
+}
+td.imcgrau{
+    text-align: center;
+}
+div.obeso{
+    margin: 0 auto;
+    text-align: center;
+    background-color: burlywood;
+    width: 400px;
+}
+a.obeso{
+    font-size: 40px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imc.css" type="text/css">
+    <title>IMC</title>
+</head>
+<body>
+    <table class="imcgrau" border="1px">
+        <tr>
+            <td class="imcgrau">
+                <a>Altura(em Metros)</a>
+            </td>
+            <td class="imcgrau">
+                <a>Peso(em Quilos)</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <input type="text" name="valor" id="altura">
+            </td>
+            <td class="imcgrau"> 
+                <input type="text" name="valor" id="peso">
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <table class="imcgrau" border="1px">
+        <tr class="imcgrautitulo">
+            <td></td>
+            <td>
+                <a>Tabela do IMC</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <a>IMC</a>
+            </td>
+            <td class="imcgrau">
+                <a>Classificação</a>
+            </td>
+            <td class="imcgrau">
+                <a>Obesidade (GRAU)</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <a>Menor que 18,5</a>
+            </td>
+            <td  class="imcgrau">
+                <a>Magreza</a>
+            </td>
+            <td  class="imcgrau">
+                <a>0</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <a>Entre 18,5 e 24,9</a>
+            </td>
+            <td class="imcgrau">
+                <a>Normal</a>
+            </td>
+            <td class="imcgrau">
+                <a>0</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <a>Entre 25,0 e 29,9</a>
+            </td>
+            <td class="imcgrau">
+                <a>Sobrepeso</a>
+            </td>
+            <td class="imcgrau">
+                <a>I</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <a>Entre 30 e 39,9</a>
+            </td>
+            <td class="imcgrau">
+                <a>Obesidade</a>
+            </td>
+            <td class="imcgrau">
+                <a>II</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <a>Maior que 40,0</a>
+            </td>
+            <td class="imcgrau">
+                <a>Obesidade Grave</a>
+            </td>
+            <td class="imcgrau">
+                <a>III</a>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <table class="imccalc">
+        <tr>
+            <td>
+                <button onclick="calcular()" style="margin: 0 auto; align-items:center; text-align:center"> calcular</button>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <table class="imcgrau" border="1px">
+        <tr>
+            <td>
+                <a>Seu IMC:</a>
+            </td>
+            <td>
+                <a>Sua Classificação:</a>
+            </td>
+            <td>
+                <a>Seu Grau: </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="imcgrau">
+                <p id="imc"></p>
+            </td>
+            <td class="imcgrau">
+                <p id="class"></p>
+            </td>
+            <td class="imcgrau">
+                <p id="grau"></p>
+            </td>
+        </tr>
+    </table>
+    <script src="imc.js"></script>
+</body>
+</html>
